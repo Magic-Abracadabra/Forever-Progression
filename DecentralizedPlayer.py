@@ -24,8 +24,12 @@ if len(argv)==2:
 		del file
 		file = argv.split('.dc')
 		file = '.dc'.join(file[:-1])+'.'+file[-1]
-		with open(file, 'wb') as data:
-			data.write(media)
+		try:
+			with open(file, 'rb') as data:
+				assert media == data.read()
+		except:
+			with open(file, 'wb') as data:
+				data.write(media)
 		try:
 			import vlc
 		except:
@@ -35,13 +39,20 @@ if len(argv)==2:
 		player = vlc.MediaPlayer(file)
 		del file, data
 		player.play()
-		import mmap, ctypes
+		import mmap, ctypes, atexit, sys
 		memmove_local = ctypes.memmove
 		while player.get_time() < 0:
 			pass
 		player.set_time(breakpoint)
-		input('Press Enter to Stop')
-		with open(argv, 'r+b') as file:
-			with mmap.mmap(file.fileno(), length) as mm:
-				base_addr = ctypes.addressof(ctypes.c_char.from_buffer(mm))
-				memmove_local(base_addr, encrypt(player.get_time().to_bytes(length, 'big', signed=False)), length)
+		def save():
+			with open(argv, 'r+b') as file:
+				with mmap.mmap(file.fileno(), length) as mm:
+					base_addr = ctypes.addressof(ctypes.c_char.from_buffer(mm))
+					memmove_local(base_addr, encrypt(player.get_time().to_bytes(length, 'big', signed=False)), length)
+		try:
+			from time import sleep
+			while player.get_state() != vlc.State.Ended:
+				sleep(5)
+				save()
+		except:
+			save()
