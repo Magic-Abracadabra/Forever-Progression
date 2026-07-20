@@ -40,8 +40,11 @@ if len(argv)==2:
 		while player.get_time() < 0:
 			pass
 		player.set_time(breakpoint)
-		with open(argv, 'r+b') as file:
-			with mmap.mmap(file.fileno(), length) as mm:
-				base_addr = ctypes.addressof(ctypes.c_char.from_buffer(mm))
-				while True:
+		try:
+			while True:
+				pass
+		except KeyboardInterrupt:
+			with open(argv, 'r+b') as file:
+				with mmap.mmap(file.fileno(), length) as mm:
+					base_addr = ctypes.addressof(ctypes.c_char.from_buffer(mm))
 					memmove_local(base_addr, encrypt(player.get_time().to_bytes(length, 'big', signed=False)), length)
