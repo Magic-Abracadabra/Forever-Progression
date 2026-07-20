@@ -1,6 +1,6 @@
 # 📨Forever Progression
 A usable, *decentralized*, **portable**, but not elegant way to save your progression after shutting down your media player. No internet required. No dependency on single device. Move your media files everywhere.
-# New File Extensions are created here! Take this and Forget that!
+# New File Extensions are created here! Take these and Forget those ones!
 .dc*, where dc for *decentralized*
 
 <img width="462.5" height="618.5" alt="image" src="https://github.com/user-attachments/assets/bbc6ffe4-c7f1-43c2-a0f4-6640cf31c25b" />
