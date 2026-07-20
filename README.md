@@ -19,5 +19,7 @@ Then, set up a bat or cmd file
 python DecentralizedPlayer.py %1
 ```
 Use this bat or cmd file to open any media supported by VLC! A Decentralized file will be created for you. You can use this *Decentralized file* **WITHOUT** copying the raw media file to continue your focused mind flows and digital journeys everywhere. E.g., you have example.mp4, this project will convert it into example.dcmp4 the first time you open it. Then, you can ignore or even delete the example.mp4 completely. Move one file is enough. No need to settle a mess of files.
+
+To exit media, use the hotkey Ctrl+C.
 # Irreplaceable Journey, Irreplaceable You: This is Self-Sovereign Identity (SSI).
 Replace encrypt and decrypt functions with yours. Your Journeys are Yours, so they are Worth Protecting.
