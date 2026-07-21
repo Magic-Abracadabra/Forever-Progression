@@ -62,16 +62,18 @@ if len(argv)==2:
 				from pynput import keyboard
 			def on_press(key):
 				match str(key)[4:]:
-					case 'esc' | 'enter':
-						raise KeyboardInterrupt
-					case 'space':
+					case 'esc':
+						save()
+						player.stop()
+						quit()
+					case 'space' | 'enter':
 						player.pause()
 						save()
 					case 'left':
-						player.set_time(player.get_time() - 5000)
+						player.set_time(player.get_time() - 1000)
 						save()
 					case 'right':
-						player.set_time(player.get_time() + 5000)
+						player.set_time(player.get_time() + 1000)
 						save()
 			keyboard = keyboard.Listener(on_press=on_press)
 			from time import sleep
