@@ -50,9 +50,31 @@ if len(argv)==2:
 					base_addr = ctypes.addressof(ctypes.c_char.from_buffer(mm))
 					memmove_local(base_addr, encrypt(player.get_time().to_bytes(length, 'big', signed=False)), length)
 		try:
+			try:
+				from pynput import keyboard
+			except:
+				from pip import main
+				main(['install', 'pynput'])
+				from pynput import keyboard
+			def on_press(key):
+				match str(key)[4:]:
+					case 'esc' | 'enter':
+						raise KeyboardInterrupt
+					case 'space':
+						player.pause()
+						save()
+					case 'left':
+						player.set_time(player.get_time() - 5000)
+						save()
+					case 'right':
+						player.set_time(player.get_time() + 5000)
+						save()
+			keyboard = keyboard.Listener(on_press=on_press)
 			from time import sleep
+			keyboard.start()
 			while player.get_state() != vlc.State.Ended:
 				sleep(5)
 				save()
+			keyboard.stop()
 		except:
 			save()
