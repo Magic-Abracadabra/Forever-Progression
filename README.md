@@ -33,4 +33,4 @@ Requirements will be automatically satisfied (they are: python-vlc, pynput), wit
 # Warm Up Usage
 Terminate the media by Enter, Escape (fine-grained saving), or just closing it. Use space to pause. Press Left or Right to control your progress by 5 seconds.
 # Irreplaceable Story, Irreplaceable You: This is Self-Sovereign Identity (SSI)
-Replace encrypt and decrypt functions with yours. Your Stories are Yours, so they are Worth Protecting.
+Please replace *encrypt* and *decrypt* functions with yours. Your Stories are Yours, so they are Worth Protecting.
