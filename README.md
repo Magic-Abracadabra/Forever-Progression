@@ -35,4 +35,4 @@ Terminate the media by Escape (fine-grained saving), or just closing it. Use Spa
 # Irreplaceable Story, Irreplaceable You: This is Self-Sovereign Identity (SSI)
 Please replace *encrypt* and *decrypt* functions with yours. Your Stories are Yours, so they are Worth Protecting.
 # Project Future
-This project, ultimately, will be the application of [the Foundation of Neo-Web3](https://github.com/Magic-Abracadabra/Self-Sovereign-Office-Agents-and-Their-Incremental-Learning-Framework), in which AI of Neo-Web3 paradigm is the key component.
+This project, ultimately, will be the application of [the Infrastructure of Neo-Web3](https://github.com/Magic-Abracadabra/Self-Sovereign-Office-Agents-and-Their-Incremental-Learning-Framework), in which AI of Neo-Web3 paradigm is the key component.
