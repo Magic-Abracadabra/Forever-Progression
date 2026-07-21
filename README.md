@@ -1,5 +1,5 @@
 # 📨Forever Progression
-Your digital belongs will always leave your marks🐾, and your marks are always yours.
+Your digital belongings will always leave your marks🐾, and your marks are always yours.
 
 A usable, *decentralized*, **portable**, but not elegant way to save your progression after shutting down your media player. No internet required. No dependency on single device. Move your media files with your unique marks🐾 everywhere.
 # When will I need this?
