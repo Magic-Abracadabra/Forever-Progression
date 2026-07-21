@@ -12,7 +12,8 @@ Tradition files only record facts loyally, but what do it mean to me? I have int
 Starting from this, New File Extensions .dc* are created, where dc means *decentralized*.
 <img width="462.5" height="618.5" alt="image" src="https://github.com/user-attachments/assets/bbc6ffe4-c7f1-43c2-a0f4-6640cf31c25b" />
 
-Migrate with one single file that evidenced your existence, is enough.
+As you wish, migrating with just one single file that evidenced your existence is enough. Just carry this .dc* file to seamlessly resume playback on any device equipped with VLC and the project script, without requiring an internet connection or having to manage a clutter of scattered files. One single file is sufficient.
+
 # Usage
 For windows:
 
