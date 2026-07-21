@@ -15,7 +15,7 @@ Starting from this idea, this project integrates your file with the bonds betwee
 
 As you wish, migrating with just one single file that evidenced your existence is enough. Just carry this .dc* file to seamlessly resume playback on any device equipped with VLC and the project script, without requiring an internet connection or having to manage a clutter of scattered files. One single file is sufficient.
 
-# Usage
+# Installation
 For windows:
 
 Firstly, install VLC via
@@ -29,6 +29,9 @@ python DecentralizedPlayer.py %1
 ```
 Use this bat or cmd file to open any media supported by VLC! A Decentralized file will be created for you. You can use this *Decentralized file* **WITHOUT** copying the raw media file to continue your focused mind flows and digital stories everywhere. E.g., you have example.mp4, this project will convert it into example.dcmp4 the first time you open it. Then, you can ignore or even delete the example.mp4 completely. Move one file is enough. No need to settle a mess of files.
 
-Terminate the media by Ctrl+C, or just closing it.
+# Warm Up Usage
+Terminate the media by Enter, Escape (fine-grained saving), or just closing it. Use space to pause. Press Left or Right to control your progress by 5 seconds.
+
+Requirements will be automatically satisfied (they are: python-vlc, pynput), download once.
 # Irreplaceable Story, Irreplaceable You: This is Self-Sovereign Identity (SSI)
 Replace encrypt and decrypt functions with yours. Your Stories are Yours, so they are Worth Protecting.
