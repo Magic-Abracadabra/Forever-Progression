@@ -1,13 +1,13 @@
 # 📨Forever Progression
 Your digital belongings will always have your marks🐾, and your marks are always yours.
 
-A usable, *decentralized*, **portable**, but not elegant way to save your progression after shutting down your media player. No internet required. No dependency on single device. Move your media files with your unique marks🐾 everywhere.
+A usable, *decentralized*, **portable** way to save your progression after shutting down your media player. No internet required. No dependency on single device. Move your media files with your unique marks🐾 everywhere.
 # When will I need this?
 * You are watching a video **locally** on your phone, but you are unsatisfied with your experience with it, so you decide to continue your journey with your video on your computer, or even on your VR devices.
 * You are going to migrate your device, and you find your local player has saved your progression or some other interaction history elsewhere, fragmented in a mess ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ (you aren't sure if you are copying the right files because they are black-boxes)
 * You are listening to a deep talk, but something interrupt you. You don't have time or even forget to save your progression manually. This situation has troubled you for a long time.
 # What this project offers?
-A tradition file only record facts with raw media loyally, but what does it mean to me? I have interacted with it, and how can I see my bonds with it safely? Can I leave something only belong to me on it? 
+A tradition file simply records facts with raw media loyally, but what does it mean to me? I have interacted with it, and how can I see my bonds with it safely? Can I leave something only belong to me on it? 
 
 Starting from this idea, this project integrates your file with the bonds between the files and you into one single file. New File Extensions .dc* are created, where dc means *decentralized*.
 
