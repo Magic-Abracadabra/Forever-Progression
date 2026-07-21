@@ -7,7 +7,7 @@ A usable, *decentralized*, **portable**, but not elegant way to save your progre
 * You are going to migrate your device, and you find your local player has saved your progression or some other interaction history elsewhere, fragmented in a mess ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ (you aren't sure if you are copying the right files because they are black-boxes)
 * You are listening to a deep talk, but something interrupt you. You don't have time or even forget to save your progression manually. This situation has troubled you for a long time.
 # What this project offers?
-A tradition file simply records facts with raw media loyally, but what does it mean to me? I have interacted with it, and how can I see my bonds with it safely? Can I leave something only belong to me on it? 
+Conventionally, a file simply records facts with raw media loyally, but what does it mean to me? I have interacted with it, and how can I see my bonds with it safely? Can I leave something only belong to me on it? 
 
 Starting from this idea, this project integrates your file with the bonds between the files and you into one single file. New File Extensions .dc* are created, where dc means *decentralized*.
 
