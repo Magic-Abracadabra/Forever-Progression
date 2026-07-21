@@ -7,9 +7,9 @@ A usable, *decentralized*, **portable**, but not elegant way to save your progre
 * You are going to migrate your device, and you find your local player has saved your progression or some other interaction history elsewhere, fragmented in a mess ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ (you don't even sure if you are copying the right files because they are black-boxes)
 * You are listening to a deep talk, but something interrupt you. You don't have time or even forget to save your progression manually. This situation has troubled you for a long time.
 # What this project offers?
-Tradition files only record facts loyally, but what do it mean to me? I have interacted with it, and how can I see my bond with it safely? Can I leave something only belong to me on it? 
+Tradition files only record facts with raw media files loyally, but what do it mean to me? I have interacted with it, and how can I see my bond with it safely? Can I leave something only belong to me on it? 
 
-Starting from this, New File Extensions .dc* are created, where dc means *decentralized*.
+Starting from this, this project integrates your files with the bonds between the files and you into one single file. New File Extensions .dc* are created, where dc means *decentralized*.
 <img width="462.5" height="618.5" alt="image" src="https://github.com/user-attachments/assets/bbc6ffe4-c7f1-43c2-a0f4-6640cf31c25b" />
 
 As you wish, migrating with just one single file that evidenced your existence is enough. Just carry this .dc* file to seamlessly resume playback on any device equipped with VLC and the project script, without requiring an internet connection or having to manage a clutter of scattered files. One single file is sufficient.
