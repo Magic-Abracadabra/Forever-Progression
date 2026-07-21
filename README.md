@@ -7,7 +7,7 @@ A usable, *decentralized*, **portable**, but not elegant way to save your progre
 
 <img width="462.5" height="618.5" alt="image" src="https://github.com/user-attachments/assets/bbc6ffe4-c7f1-43c2-a0f4-6640cf31c25b" />
 
-What is it? It's your raw media file + your digital footprints. Tradition footprints are separated from raw media files. Here, all are integrated!
+What is it? It's your raw media file + your digital footprints. Tradition footprints are separated from raw media files. Here, all are naturally integrated!
 # Usage
 For windows:
 
