@@ -2,12 +2,17 @@
 Your digital belongs will always leave your marks🐾, and your marks are always yours.
 
 A usable, *decentralized*, **portable**, but not elegant way to save your progression after shutting down your media player. No internet required. No dependency on single device. Move your media files with your unique marks🐾 everywhere.
-# New File Extensions are created here! Take these and Forget those ones!
-.dc*, where dc for *decentralized*
+# When will I need this?
+* You are watching a video **locally** on your phone, but you are unsatisfied with your experience with it, so you decide to continue your journey with your video on your computer, or even on your VR devices.
+* You are going to migrate your device, and you find your local player has saved your progression or some other interaction history elsewhere, fragmented in a mess ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ (you don't even sure if you are copying the right files because they are black-boxes)
+* You are listening to a deep talk, but something interrupt you. You don't have time or even forget to save your progression manually. This situation has troubled you for a long time.
+# What this project offers?
+Tradition files only record facts loyally, but what do it mean to me? I have interacted with it, and how can I see my bond with it safely? Can I leave something only belong to me on it? 
 
+Starting from this, New File Extensions .dc* are created, where dc means *decentralized*.
 <img width="462.5" height="618.5" alt="image" src="https://github.com/user-attachments/assets/bbc6ffe4-c7f1-43c2-a0f4-6640cf31c25b" />
 
-What is it? It's your raw media file + your digital footprints. Tradition footprints are separated from raw media files. Here, all are naturally integrated!
+Migrate with one single file that evidenced your existence, is enough.
 # Usage
 For windows:
 
