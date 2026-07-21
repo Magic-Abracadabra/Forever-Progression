@@ -31,6 +31,6 @@ Use this bat or cmd file to open any media supported by VLC! A Decentralized fil
 
 Requirements will be automatically satisfied (they are: python-vlc, pynput), with one download.
 # Warm Up Usage
-Terminate the media by Enter, Escape (fine-grained saving), or just closing it. Use space to pause. Press Left or Right to control your progress by 5 seconds.
+Terminate the media by Escape (fine-grained saving), or just closing it. Use Space or Enter to pause. Press Left or Right to control your progress by 1 second.
 # Irreplaceable Story, Irreplaceable You: This is Self-Sovereign Identity (SSI)
 Please replace *encrypt* and *decrypt* functions with yours. Your Stories are Yours, so they are Worth Protecting.
