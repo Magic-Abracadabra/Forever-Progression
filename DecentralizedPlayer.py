@@ -1,13 +1,17 @@
+length = 32
 # encrypt and decrypt
 def encrypt(x):
-	return x
+	y = x
+	assert len(y)==length
+	return y
 def decrypt(x):
-	return x
+	y = x
+	assert len(y)==length
+	return y
 # Decentralized Player
 from sys import argv
 if len(argv)==2:
 	argv = argv[1]
-	length = 32
 	if not argv.split('.')[-1].startswith('dc'):
 		with open(argv, 'rb') as data:
 			data = data.read()
